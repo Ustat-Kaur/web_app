@@ -28,7 +28,10 @@ function gotPoses(results){
     }
 }
 
-function draw(){}
+function draw(){
+    image(video, 0, 0, 500, 400);
+
+}
 
 function take_snapshot(){
     save("download.png");
